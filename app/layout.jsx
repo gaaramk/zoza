@@ -26,7 +26,10 @@ export const metadata = {
   },
   description:
     "Wasfa is a recipe application that allows you to search for recipes and get detailed information about them.",
-};
+  icons: {
+    icon: "/images/logo.png",
+  },
+  };
 
 export default function RootLayout({ children }) {
   return (

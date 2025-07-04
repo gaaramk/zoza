@@ -1,5 +1,6 @@
 "use client";
 import { Menu } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 
@@ -13,7 +14,15 @@ const Navbar = () => {
   return (
     <nav className="px-3 py-3 border border-slate-300 rounded-full my-3 relative z-[10000000]">
       <div className="flex justify-between items-center">
-        <figure>image</figure>
+        <figure>
+          <Image
+            src="/images/logo.png"
+            alt="logo"
+            width={1000}
+            height={1000}
+            className="w-20 object-cover rounded-full"
+          />
+        </figure>
 
         <ul className="hidden md:flex gap-5">
           <li>

@@ -26,7 +26,7 @@ const Header = () => {
       text-white"
       >
         <h2 className="font-title text-center text-3xl md:text-6xl font-bold">
-          Wasfa| Recipe App
+          ZOZA| Recipe App
         </h2>
 
         <p className="text-center mt-5 text-lg md:text-2xl py-3 min-w-[300px]">
