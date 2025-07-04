@@ -18,25 +18,22 @@ const notoSans = Noto_Sans({
   display: "swap",
 });
 
-
 export const metadata = {
   title: {
-    default: "Wasfa",
-    template: "%s | Wasfa ",
+    default: "ZOZA",
+    template: "%s | ZOZA",
   },
   description:
     "Wasfa is a recipe application that allows you to search for recipes and get detailed information about them.",
   icons: {
     icon: "/images/logo.png",
   },
-  };
+};
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${playfair.variable} ${notoSans.variable} antialiased`}
-      >
+      <body className={`${playfair.variable} ${notoSans.variable} antialiased`}>
         <Providers>
           <main className="container">
             <Navbar />

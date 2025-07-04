@@ -30,7 +30,7 @@ const Header = () => {
         </h2>
 
         <p className="text-center mt-5 text-lg md:text-2xl py-3 min-w-[300px]">
-          <span className="font-bold">Wasfa</span> is a recipe application that
+          <span className="font-bold">ZOZA</span> is a recipe application that
           allows you to search for recipes and get detailed information about
           them.
         </p>

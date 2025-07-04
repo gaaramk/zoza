@@ -21,7 +21,7 @@ const Palette = () => {
             </h2>
 
             <p className="mt-5 text-lg">
-              <span className="font-bold">Wasfa</span> is a recipe application
+              <span className="font-bold">ZOZA</span> is a recipe application
               that allows you to search for recipes and get detailed information
               about them. You can also save your favorite recipes and access
               them anytime, anywhere.
