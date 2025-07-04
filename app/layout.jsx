@@ -24,7 +24,7 @@ export const metadata = {
     template: "%s | ZOZA",
   },
   description:
-    "Wasfa is a recipe application that allows you to search for recipes and get detailed information about them.",
+    "ZOZA  is a recipe application that allows you to search for recipes and get detailed information about them.",
   icons: {
     icon: "/images/logo.png",
   },
