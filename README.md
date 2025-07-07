@@ -47,6 +47,34 @@ Built using the latest frontend technologies and styled with a clean, modern UI,
 ---
 
 
+## 📦 Installation
+
+```bash
+git clone https://github.com/YOUR_USERNAME/wasfa.git
+cd wasfa
+npm install
+npm run dev
+
+zoza/
+├── app/
+│   └── recipes/
+│       └── loading.jsx
+├── components/
+│   ├── ui/
+│   │   └── LoadingPage.jsx
+│   └── layout/
+├── lib/
+│   └── api.js
+├── public/
+│   └── images/
+├── styles/
+│   └── globals.css
+├── tailwind.config.js
+└── next.config.js
+
+
+
+
 API Integration
 
 All data comes from TheMealDB.
@@ -64,52 +92,9 @@ We use these endpoints:
 
     API functions are stored inside lib/api.js
 
----
-
-wasfa/
-├── app/
-│   └── recipes/
-│       └── loading.jsx
-├── components/
-│   ├── ui/
-│   │   └── LoadingPage.jsx
-│   └── layout/
-├── lib/
-│   └── api.js
-├── public/
-│   └── images/
-├── styles/
-│   └── globals.css
-├── tailwind.config.js
-└── next.config.js
 
 
 
-
-## 📦 Installation
-
-```bash
-git clone https://github.com/YOUR_USERNAME/wasfa.git
-cd wasfa
-npm install
-npm run dev
-
-wasfa/
-├── app/
-│   └── recipes/
-│       └── loading.jsx
-├── components/
-│   ├── ui/
-│   │   └── LoadingPage.jsx
-│   └── layout/
-├── lib/
-│   └── api.js
-├── public/
-│   └── images/
-├── styles/
-│   └── globals.css
-├── tailwind.config.js
-└── next.config.js
 
 
 Author
