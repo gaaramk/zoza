@@ -46,13 +46,8 @@ Built using the latest frontend technologies and styled with a clean, modern UI,
 
 ---
 
-## 📦 Installation
 
-```bash
-git clone https://github.com/YOUR_USERNAME/wasfa.git
-cd wasfa
-npm install
-npm run dev
+
 
 ---
 
@@ -93,6 +88,20 @@ We use these endpoints:
     API functions are stored inside lib/api.js
 
 ---
+
+
+
+
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/YOUR_USERNAME/wasfa.git
+cd wasfa
+npm install
+npm run dev
+
+
 
 Author
 Mohamed Kamal El-Dein
