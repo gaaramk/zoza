@@ -54,8 +54,9 @@ cd wasfa
 npm install
 npm run dev
 
+---
 
-wasfa/
+Zoza/
 ├── app/
 │   └── recipes/
 │       └── loading.jsx
@@ -72,6 +73,7 @@ wasfa/
 ├── tailwind.config.js
 └── next.config.js
 
+---
 
 API Integration
 
@@ -90,8 +92,11 @@ We use these endpoints:
 
     API functions are stored inside lib/api.js
 
+---
 
 Author
 Mohamed Kamal El-Dein
 Frontend Developer – Egypt
 LinkedIn | GitHub
+
+---
