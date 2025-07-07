@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">🍲 Wasfa</h1>
+<p align="center">
+  Discover, search, and explore a world of recipes.<br />
+  Built with <strong>Next.js 15</strong>, <strong>Tailwind CSS</strong>, <strong>ShadCN UI</strong>, and powered by <strong>TheMealDB API</strong>.
+</p>
 
-## Getting Started
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-15-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/TailwindCSS-4-38B2AC?style=flat-square" />
+  <img src="https://img.shields.io/badge/ShadCN-UI-EE6352?style=flat-square" />
+  <img src="https://img.shields.io/badge/API-TheMealDB-yellowgreen?style=flat-square" />
+</p>
 
-First, run the development server:
+---
+
+## 🧾 About
+
+**Wasfa** is a recipe web application that allows users to discover, search, and view delicious meals from around the world. Whether you're craving Egyptian food or looking for a specific dish by name, Wasfa makes it easy to explore.
+
+Built using the latest frontend technologies and styled with a clean, modern UI, the app provides a smooth user experience with real-time searching and beautiful layouts.
+
+---
+
+## ✨ Features
+
+- 🔍 **Search Recipes by Name**
+- 🍽️ **Browse by Category**
+- 🇪🇬 **Egyptian Dishes Section**
+- 📋 **View Full Recipe Details**
+- 🌙 **Light & Dark Mode**
+- ⚡ **Fast & Cached Data with React Query**
+
+---
+
+## 🛠️ Tech Stack
+
+| Tool | Purpose |
+|------|---------|
+| [Next.js 15](https://nextjs.org/) | React framework for server/client rendering |
+| [Tailwind CSS 4](https://tailwindcss.com/) | Utility-first CSS styling |
+| [ShadCN UI](https://ui.shadcn.dev/) | UI component system built on Radix + Tailwind |
+| [React Query](https://tanstack.com/query/v5) | Data fetching and caching |
+| [Axios](https://axios-http.com/) | HTTP client |
+| [Lucide Icons](https://lucide.dev/) | Icon library |
+| [TheMealDB API](https://www.themealdb.com/) | Public API for meal data |
+
+---
+
+## 📦 Installation
 
 ```bash
+git clone https://github.com/YOUR_USERNAME/wasfa.git
+cd wasfa
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+wasfa/
+├── app/
+│   └── recipes/
+│       └── loading.jsx
+├── components/
+│   ├── ui/
+│   │   └── LoadingPage.jsx
+│   └── layout/
+├── lib/
+│   └── api.js
+├── public/
+│   └── images/
+├── styles/
+│   └── globals.css
+├── tailwind.config.js
+└── next.config.js
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+API Integration
 
-To learn more about Next.js, take a look at the following resources:
+All data comes from TheMealDB.
+We use these endpoints:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    GET /search.php?s=... → search by name
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+    GET /lookup.php?i=... → get full recipe by ID
 
-## Deploy on Vercel
+    GET /categories.php → all categories
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    GET /filter.php?c=... → recipes by category
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+    GET /filter.php?a=Egyptian → Egyptian meals
+
+    API functions are stored inside lib/api.js
+
+
+Author
+Mohamed Kamal El-Dein
+Frontend Developer – Egypt
+LinkedIn | GitHub
