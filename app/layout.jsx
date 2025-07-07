@@ -3,6 +3,7 @@ import "./globals.css";
 import Providers from "./providers";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import { Toaster } from "react-hot-toast";
 
 const playfair = Playfair_Display({
   variable: "--font-title",
@@ -38,6 +39,7 @@ export default function RootLayout({ children }) {
           <main className="container">
             <Navbar />
             {children}
+            <Toaster />
             <Footer />
           </main>
         </Providers>
