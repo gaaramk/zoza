@@ -1,4 +1,4 @@
-<h1 align="center">🍲 Wasfa</h1>
+<h1 align="center">🍲 ZOZA</h1>
 <p align="center">
   Discover, search, and explore a world of recipes.<br />
   Built with <strong>Next.js 15</strong>, <strong>Tailwind CSS</strong>, <strong>ShadCN UI</strong>, and powered by <strong>TheMealDB API</strong>.
@@ -15,7 +15,7 @@
 
 ## 🧾 About
 
-**Wasfa** is a recipe web application that allows users to discover, search, and view delicious meals from around the world. Whether you're craving Egyptian food or looking for a specific dish by name, Wasfa makes it easy to explore.
+**ZOZA** is a recipe web application that allows users to discover, search, and view delicious meals from around the world. Whether you're craving Egyptian food or looking for a specific dish by name, Wasfa makes it easy to explore.
 
 Built using the latest frontend technologies and styled with a clean, modern UI, the app provides a smooth user experience with real-time searching and beautiful layouts.
 
