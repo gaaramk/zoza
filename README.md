@@ -47,29 +47,6 @@ Built using the latest frontend technologies and styled with a clean, modern UI,
 ---
 
 
-
-
----
-
-Zoza/
-├── app/
-│   └── recipes/
-│       └── loading.jsx
-├── components/
-│   ├── ui/
-│   │   └── LoadingPage.jsx
-│   └── layout/
-├── lib/
-│   └── api.js
-├── public/
-│   └── images/
-├── styles/
-│   └── globals.css
-├── tailwind.config.js
-└── next.config.js
-
----
-
 API Integration
 
 All data comes from TheMealDB.
@@ -89,6 +66,22 @@ We use these endpoints:
 
 ---
 
+wasfa/
+├── app/
+│   └── recipes/
+│       └── loading.jsx
+├── components/
+│   ├── ui/
+│   │   └── LoadingPage.jsx
+│   └── layout/
+├── lib/
+│   └── api.js
+├── public/
+│   └── images/
+├── styles/
+│   └── globals.css
+├── tailwind.config.js
+└── next.config.js
 
 
 
@@ -101,6 +94,22 @@ cd wasfa
 npm install
 npm run dev
 
+wasfa/
+├── app/
+│   └── recipes/
+│       └── loading.jsx
+├── components/
+│   ├── ui/
+│   │   └── LoadingPage.jsx
+│   └── layout/
+├── lib/
+│   └── api.js
+├── public/
+│   └── images/
+├── styles/
+│   └── globals.css
+├── tailwind.config.js
+└── next.config.js
 
 
 Author
