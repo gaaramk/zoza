@@ -4,6 +4,18 @@ import { BookMarked, MapPin, Refrigerator } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 
+
+
+
+export const metadata = {
+  title: {
+    default: "Recipe Details",
+  },
+};
+
+
+
+
 const page = async ({ params }) => {
   const { id } = await params
   const recipe = await getRecipeById(id)
@@ -23,7 +35,6 @@ const page = async ({ params }) => {
     }
   }
 
-  // console.log(sameCategoryFiltered);
 
 
 
