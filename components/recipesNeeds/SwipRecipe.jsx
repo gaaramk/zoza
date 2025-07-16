@@ -47,7 +47,7 @@ export default function SwipRecipe({ recipes }) {
                             spaceBetween: 40,
                         },
                         1024: {
-                            slidesPerView: 5,
+                            slidesPerView: 4,
                             spaceBetween: 50,
                         },
                     }}
