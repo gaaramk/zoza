@@ -32,7 +32,7 @@ export default function SwipRecipe({ recipes }) {
 
 
                 <Swiper
-                    slidesPerView={2}
+                    slidesPerView={1}
                     spaceBetween={10}
                     pagination={{
                         clickable: true,

@@ -3,7 +3,7 @@ import { Button } from "../ui/button";
 
 const RecipeCard = ({ recipe }) => {
   return (
-    <section className="mb-5 h-[400px]">
+    <section className="mb-20 ">
       <div
         key={recipe?.idMeal}
         className="border rounded-lg overflow-hidden shadow-md text-start"
@@ -15,7 +15,7 @@ const RecipeCard = ({ recipe }) => {
         />
 
         <div className="p-4">
-          <h3 className="my-3 font-semibold">{recipe?.strMeal}</h3>
+          <h3 className="my-3 font-semibold line-clamp-1">{recipe?.strMeal}</h3>
 
           <p className="my-3 text-gray-600 text-sm line-clamp-2">
             {recipe?.strInstructions}
