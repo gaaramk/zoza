@@ -1,3 +1,5 @@
+import { RecipesFiltre } from "@/components/recipesNeeds/RecipesFiltre";
+
 export const metadata = {
   title: {
     default: "Recipes",
@@ -5,7 +7,11 @@ export const metadata = {
 };
 
 const page = () => {
-  return <div>page</div>;
+  return <>
+    <section>
+      <RecipesFiltre />
+    </section>
+  </>;
 };
 
 export default page;

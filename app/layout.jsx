@@ -36,12 +36,14 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${playfair.variable} ${notoSans.variable} antialiased`}>
         <Providers>
+          <Navbar />
+
           <main className="container">
-            <Navbar />
             {children}
             <Toaster />
-            <Footer />
           </main>
+          <Footer />
+
         </Providers>
       </body>
     </html>
