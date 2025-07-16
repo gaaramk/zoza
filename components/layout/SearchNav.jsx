@@ -26,7 +26,7 @@ const SearchNav = () => {
         placeholder="Search"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        className="border border-slate-300 rounded-full px-3 py-2 w-[200px] md:w-[300px]"
+        className="border border-slate-300 rounded-full px-3 py-2 w-full md:w-[300px]"
       />
 
       {query && (
