@@ -26,11 +26,11 @@ const Header = () => {
       text-white"
       >
         <h2 className="font-title text-center text-3xl md:text-6xl font-bold">
-          ZOZA| Recipe App
+          WASFA| Recipe App
         </h2>
 
         <p className="text-center mt-5 text-lg md:text-2xl py-3 min-w-[300px]">
-          <span className="font-bold">ZOZA</span> is a recipe application that
+          <span className="font-bold">WASFA</span> is a recipe application that
           allows you to search for recipes and get detailed information about
           them.
         </p>

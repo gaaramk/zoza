@@ -21,11 +21,11 @@ const notoSans = Noto_Sans({
 
 export const metadata = {
   title: {
-    default: "ZOZA",
-    template: "%s | ZOZA",
+    default: "WASFA",
+    template: "%s | WASFA",
   },
   description:
-    "ZOZA  is a recipe application that allows you to search for recipes and get detailed information about them.",
+    "WASFA  is a recipe application that allows you to search for recipes and get detailed information about them.",
   icons: {
     icon: "/images/logo.png",
   },
