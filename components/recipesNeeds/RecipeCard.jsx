@@ -3,7 +3,7 @@ import { Button } from "../ui/button";
 
 const RecipeCard = ({ recipe }) => {
   return (
-    <section className="mb-5">
+    <section className="mb-5 h-[400px]">
       <div
         key={recipe?.idMeal}
         className="border rounded-lg overflow-hidden shadow-md text-start"
